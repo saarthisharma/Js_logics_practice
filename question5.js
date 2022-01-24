@@ -1,16 +1,4 @@
 // program to display fibonacci sequence using recursion
-
-// function countdown(number)
-// {
-//     console.log(number)
-//     const newNumber = number-1;
-//     if(newNumber>0)
-//     {
-//         countdown(newNumber)
-//     }
-    
-// }
-// countdown(4)
 // 0, 1, 1, 2, 3, 5, 8, 13, 21
 let n0 = 0;
 let n1 = 1;
