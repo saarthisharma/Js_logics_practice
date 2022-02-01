@@ -2,17 +2,17 @@
 
 // example
 // simple function invocation 
-function show() {
-    "use strict";
-    console.log(this == undefined); // true
+// function show() {
+//     "use strict";
+//     console.log(this == undefined); // true
 
-    function display() {
-        console.log(this == undefined); // true
-    }
-    display();
-}
+//     function display() {
+//         console.log(this == undefined); // true
+//     }
+//     display();
+// }
 
-show();
+// show();
 
 
 
@@ -24,3 +24,10 @@ show();
 // show()
 
 
+
+// in strict mode , this refer to undefined , because our run environment dont know about what "this" is refrencing to
+"use strict"
+function show(){
+    console.log(this)
+}
+show()
